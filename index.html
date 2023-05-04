@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Youtube</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="toggle-btn">
+           <span></span>
+           <span></span>
+           <span></span>
+        </div>
+        <img src="imagens/youtube-logo-0-removebg-preview.png" class="logo" >
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="Pesquisar">
+            <button class="search-btn"><img src="imagens/search.png"></button>
+        </div>
+        <div class="user-options">
+            <img src="imagens/video.png" class="icon">
+            <img src="imagens/grid.png" class="icon">
+            <img src="imagens/bell.png" class="icon">
+            <div class="user-dp">
+               <img src="imagens/my.jpg">
+            </div>
+        </div>
+    </nav>
+
+    <div class="side-bar">
+      <a href="#" class="links active"><img src="imagens/home.png">Inicio</a>
+      <a href="#" class="links"><img src="imagens/explore.png">Explorar</a>
+      <a href="#" class="links"><img src="imagens/subscription.png">Inscrições</a>
+      <hr class="seperator">
+      <a href="#" class="links"><img src="imagens/library.png">Biblioteca</a>
+      <a href="#" class="links"><img src="imagens/history.png">Histórico</a>
+      <a href="#" class="links"><img src="imagens/your-video.png">Seus videos</a>
+      <a href="#" class="links"><img src="imagens/watch-later.png">Assistir mais tarde</a>
+      <a href="#" class="links"><img src="imagens/liked video.png">Videos marcados como "Gostei"</a>
+      <a href="#" class="links"><img src="imagens/show more.png">Mostrar mais</a>
+    </div>
+
+    <div class="filters">
+        <button class="filters-option">Lana Del Rey</button>
+        <button class="filters-option">Billie eilish</button>
+        <button class="filters-option">The Weenknd</button>
+        <button class="filters-option">Taylor Swift</button>
+        <button class="filters-option">d4vd</button>
+        <button class="filters-option">Nirvana</button>
+        <button class="filters-option">Quenn</button>
+        <button class="filters-option">Rubel</button>
+        <button class="filters-option">Baco Exu do Blues</button>
+        <button class="filters-option">Lil Peep</button>
+    </div>
+
+    <div class="video-container" id="ytVideo">
+       <div class="video">
+        <a href="https://www.youtube.com/watch?v=lMqrP1nD5sw" target="_blank">
+        <img src="imagens/lanabillie.jpg" class="thumbnail">
+        <div class="content">
+           <img src="imagens/channels4_profile.jpg" class="channel-icon">
+           <div class="info">
+            <h4 class="title">"West Coast Bossa Nova" - Billie / Lana  </h4>
+            <p class="channel-name">User.vih24</p>
+           </div>
+        </div>
+        </a>
+       </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
